@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Vanilla Boilerplate</title>
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script src="https://unpkg.com/moralis/dist/moralis.js"></script>
+    
+    <!-- Font Awesome -->
+    <link
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+        rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+        href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.1/mdb.min.css"
+        rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div id="app" class="col-md-6 offset-md-3" hidden>
+                <div class="title">NFT minter</div>
+                <div class="form_element" id="success_message" hidden></div>
+                <div class="form_element">
+                    <input class="form-control" type="text" id="input_name" name="description" placeholder="Name of the NFT">
+                </div>
+                <div class="form_element">
+                    <input class="form-control" type="text" id="input_description" name="description" placeholder="Description of the NFT">
+                </div>
+                <div class="form_element">
+                    <input class="form-control" type="file" id="input_image" name="image" placeholder="Choose your NFT..." accept="image/png, image/jpeg, image/gif">
+                </div>
+                <div class="form_element">
+                    <button class="btn btn-primary btn-lg btn-block" id="submit_button">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <button id="btn-login">Moralis Metamask Login</button>
+    <button id="btn-logout">Logout</button> -->
+    <script src="./main.js"></script>
+</body>
+
+</html>

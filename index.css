@@ -1,0 +1,26 @@
+#app {
+    margin-top: 50px;
+    border-radius: 5px;
+    background-color: grey;
+    padding: 20px;
+}
+
+.form_element {
+    margin-top: 20px;
+}
+
+.title {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#success_message {
+    font-size: 12px;
+    background-color: #d5ffd5;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid green;
+}
